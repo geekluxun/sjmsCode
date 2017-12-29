@@ -7,6 +7,9 @@ package src.com.company.dip.section2;
  */
 public class Client {
 	public static void main(String[] args) {
+		/**
+		 * 表面类型是IDriver ，实际类型是Driver
+		 */
 		IDriver zhangSan = new Driver();
 		//ICar benz = new Benz();
 		ICar bmw = new BMW();

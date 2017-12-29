@@ -11,6 +11,12 @@ import java.util.Map;
 public class Son extends Father {
 
 	//放大输入参数类型
+
+	/**
+	 * 重载了父类方法
+	 * @param map
+	 * @return
+	 */
 	public Collection doSomething(Map map){
 		System.out.println("子类被执行...");
 		return map.values();

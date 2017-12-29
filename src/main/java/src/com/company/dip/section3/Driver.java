@@ -8,6 +8,11 @@ package src.com.company.dip.section3;
 public class Driver implements IDriver{
 	
 	//司机的主要职责就是驾驶汽车
+
+	/**
+	 * 构造函数注入依赖对象 car
+	 * @param car
+	 */
 	public void drive(ICar car){
 		car.run();
 	}
